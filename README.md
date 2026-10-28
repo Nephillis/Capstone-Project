@@ -1,16 +1,36 @@
-# React + Vite
+# OnboardAI - AI Onboarding Buddy System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**IBM SkillsBuild Capstone Project**
 
-Currently, two official plugins are available:
+## Deskripsi Proyek
+OnboardAI adalah aplikasi web interaktif berbasis Artificial Intelligence yang dirancang untuk berfungsi sebagai asisten virtual (Onboarding Buddy) bagi karyawan baru. Proyek ini dikembangkan sebagai bagian dari penyelesaian akhir (capstone project) program pelatihan AI Agent dari IBM SkillsBuild. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Aplikasi ini bertujuan untuk mengurangi beban kerja operasional tim Human Resources (HR) dengan memberikan jawaban yang instan, akurat, dan sesuai kebijakan perusahaan terkait proses orientasi karyawan (onboarding), fasilitas kantor, dan prosedur IT.
 
-## React Compiler
+## Fitur Utama
+* Antarmuka Chat Interaktif: Desain antarmuka pengguna yang responsif dengan tema AMOLED dark mode dan high-contrast tactical palette.
+* Integrasi AI Agent: Menggunakan pemrosesan bahasa alami untuk merespons pertanyaan berdasarkan knowledge base spesifik perusahaan.
+* Indikator Mengetik: Memberikan pengalaman pengguna yang realistis dengan efek "typing..." saat AI memproses jawaban.
+* State Management & Auto-Scroll: Pengelolaan riwayat pesan yang mulus dengan fitur gulir otomatis ke pesan terbaru.
+* Reset Percakapan: Dilengkapi tombol "Clear Chat" untuk menghapus riwayat pesan dan memulai ulang sesi orientasi dengan cepat.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Teknologi yang Digunakan
+* Frontend: React.js (diinisialisasi dengan Vite)
+* Bahasa Pemrograman: JavaScript
+* Styling: Vanilla CSS (Custom Theme)
+* Integrasi AI: Gemini 3.5 Flash-Lite
 
-## Expanding the Oxlint configuration
+## Prasyarat
+Sebelum menjalankan aplikasi ini, pastikan sistem Anda telah menginstal:
+* Node.js (versi LTS direkomendasikan)
+* npm (Node Package Manager)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Cara Inisialisasi dan Menjalankan Proyek
+
+1. Kloning Repositori (atau buka folder proyek)
+Buka terminal (Command Prompt / PowerShell) dan arahkan ke direktori proyek ini.
+
+2. Instalasi Dependensi
+Jalankan perintah berikut untuk menginstal semua modul dan pustaka yang dibutuhkan:
+```bash
+npm install
